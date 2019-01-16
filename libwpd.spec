@@ -4,7 +4,7 @@
 #
 Name     : libwpd
 Version  : 0.10.3
-Release  : 1
+Release  : 2
 URL      : https://dev-www.libreoffice.org/src/libwpd-0.10.3.tar.xz
 Source0  : https://dev-www.libreoffice.org/src/libwpd-0.10.3.tar.xz
 Summary  : A library for reading and writing Corel WordPerfect(tm) documents
