@@ -1,3 +1,365 @@
+2018-12-29  David Tardon  <dtardon@redhat.com>  [15c7793e0e7fc80680ceec99ccf9dbc6186fc652]
+
+	fix var. name
+
+
+2018-12-29  David Tardon  <dtardon@redhat.com>  [a3d8640773255dbb2e10738c01b27ca5f5492af8]
+
+	fix option
+
+
+2018-12-29  David Tardon  <dtardon@redhat.com>  [4be05dda9ac6174720037289bf6bda346fccd88e]
+
+	restore CXXFLAGS before another check
+
+
+2018-12-29  David Tardon  <dtardon@redhat.com>  [97c1017ee7f4ec43520f2e66d7707b0ccada61f8]
+
+	prepare for a release
+
+
+2018-12-26  David Tardon  <dtardon@redhat.com>  [7bb528eeaed6ca6cf90a3900e7713c6fae863034]
+
+	fix debug saving of graphics files
+
+
+2018-12-25  David Tardon  <dtardon@redhat.com>  [c9c578e51c2b48d1325f78f30a7b1d108f82e112]
+
+	check for __attribute__((visibility)) too
+
+
+2018-12-25  Caolán McNamara  <caolanm@redhat.com>  [33e6bfdc1e7c3f0c5fa07863618cb8403aceabab]
+
+	Resolves: rhbz#1643752 bounds check m_currentTable access
+
+
+2018-05-05  David Tardon  <dtardon@redhat.com>  [f1a6690683c80ea4e401920c7ef0ba11d4fef98c]
+
+	disable werror by default
+
+
+2018-03-23  David Tardon  <dtardon@redhat.com>  [80dd0c72867d5471ad3dc774e633f755d87f9d40]
+
+	drop unused variable
+
+
+2018-03-23  David Tardon  <dtardon@redhat.com>  [dfca3b5a137756930a57ba62ef4b4aee552f305d]
+
+	ofz#7062 do not leak tables
+
+	Regression from commit c019b27ea3235ae3c6691af623fa3895dd97e354 .
+
+2018-03-20  David Tardon  <dtardon@redhat.com>  [fdcc02654a4832db93713871c106a58f8343d71b]
+
+	drop unneeded initializers
+
+
+2018-03-20  David Tardon  <dtardon@redhat.com>  [aa01f908c562b933fd6ed1f118de54309f0144d3]
+
+	there is no need to allocate cells dynamically
+
+
+2018-03-20  David Tardon  <dtardon@redhat.com>  [83d21590530df5872459a859dc48bda29cea15aa]
+
+	mark impl. functions as private
+
+
+2018-03-20  David Tardon  <dtardon@redhat.com>  [b3c265b4548495276a6a863d3f04e8d9e60e546e]
+
+	do not unnecessarily leak class members out
+
+
+2018-03-20  David Tardon  <dtardon@redhat.com>  [e30fe128bfb730db2f44a79dc482c19a4d7d10cd]
+
+	make a bit shorter
+
+
+2018-03-20  David Tardon  <dtardon@redhat.com>  [54ecf24c2bc8b34aaf37cb3e0f0bf21e804821c9]
+
+	use unique_ptr
+
+
+2018-03-20  David Tardon  <dtardon@redhat.com>  [51e8f59aeee35d141b61b66080d7dc722ac915ca]
+
+	use unique_ptr
+
+
+2018-03-20  David Tardon  <dtardon@redhat.com>  [1e15919f31f3c81724884ae4805ba0a6736c6039]
+
+	there is no need to allocate indices dynamically
+
+
+2018-03-20  David Tardon  <dtardon@redhat.com>  [db38f605da434bcf45bb86392b2371f8a24871e7]
+
+	prefixIndice must be non-null, so pass it by const ref
+
+
+2018-03-20  David Tardon  <dtardon@redhat.com>  [8f4ab3473487838f38e0ac29907b5e162107e945]
+
+	use shared_ptr
+
+
+2018-03-20  David Tardon  <dtardon@redhat.com>  [67d5fd0002a56df627fa393de2c6764ce50eb32c]
+
+	use unique_ptr
+
+
+2018-03-20  David Tardon  <dtardon@redhat.com>  [9707aee75975ab795f5a961f8013085e7953e367]
+
+	use unique_ptr
+
+
+2018-03-20  David Tardon  <dtardon@redhat.com>  [3700b656fa0b3ce0dea1487ad5512cb235ccb9bb]
+
+	drop unused headers
+
+
+2018-03-20  David Tardon  <dtardon@redhat.com>  [6bb50cd2aeaf216b884ca64b25b4a5456ebcdae7]
+
+	drop unused header
+
+
+2018-03-20  David Tardon  <dtardon@redhat.com>  [9eb364081bd1290d8b58f59e5c6963202c784284]
+
+	there is no need to keep the raw data around
+
+
+2018-03-20  David Tardon  <dtardon@redhat.com>  [6f75f085a566d2e53a0c81836bab6dcb0b2349a6]
+
+	drop unused header
+
+
+2018-03-20  David Tardon  <dtardon@redhat.com>  [072182a597204bb2cdd76dae3fc1a5423cce0c7f]
+
+	use unique_ptr
+
+
+2018-03-20  David Tardon  <dtardon@redhat.com>  [df0c7c26f6b318dc15b53fdd876561c7da3d2d29]
+
+	use unique_ptr
+
+
+2018-03-20  David Tardon  <dtardon@redhat.com>  [651212ed01fb3050786b1f78762c238f57b5b515]
+
+	drop unused headers
+
+
+2018-03-20  David Tardon  <dtardon@redhat.com>  [d42cd8abea7dbe01470311b02d51913e4eac852f]
+
+	there is no need to keep the raw data around
+
+
+2018-03-20  David Tardon  <dtardon@redhat.com>  [a672bc72d0ddb66633e385dc9efcba908304a9d9]
+
+	drop unused function
+
+
+2018-03-20  David Tardon  <dtardon@redhat.com>  [e39a945103ef37737f0669f12da0d47b359d53f7]
+
+	use unique_ptr
+
+
+2018-03-20  David Tardon  <dtardon@redhat.com>  [521ce1f9d5d72635bcd28844eb7ca46fb73fff6e]
+
+	avoid manual memory management
+
+
+2018-03-20  David Tardon  <dtardon@redhat.com>  [b02632649a752e576c4f91bd6b53e1bf06fa48da]
+
+	default copying works now
+
+
+2018-03-20  David Tardon  <dtardon@redhat.com>  [704742a5c9a1f2e8bb41192745d06472193987cb]
+
+	use unique_ptr
+
+
+2018-03-20  David Tardon  <dtardon@redhat.com>  [a725c36641a2ec74eb3aad86c1fc06d79b860810]
+
+	use unique_ptr
+
+
+2018-03-20  David Tardon  <dtardon@redhat.com>  [b5e1ce092ac8c2a4b31ceb883d6e324322b45000]
+
+	use unique_ptr
+
+
+2018-03-20  David Tardon  <dtardon@redhat.com>  [e3cb10daa0926890157991cb09b337954f9a03d4]
+
+	drop unused include
+
+
+2018-03-20  David Tardon  <dtardon@redhat.com>  [01c43e7494cd31ce99b0a7b19935667e0c67d952]
+
+	use unique_ptr
+
+
+2018-03-20  David Tardon  <dtardon@redhat.com>  [bb851c6c31a9c31597d95d20aff756b46d38eedc]
+
+	use unique_ptr
+
+
+2018-03-20  David Tardon  <dtardon@redhat.com>  [c019b27ea3235ae3c6691af623fa3895dd97e354]
+
+	replace a home-grown smart ptr by the real one
+
+
+2018-03-20  David Tardon  <dtardon@redhat.com>  [10ee8a42d169a9a9a38cd95b6a47488055998d39]
+
+	split WPXTableList to separate file
+
+
+2018-03-20  David Tardon  <dtardon@redhat.com>  [2fb90baec8e7d9ecaf4c0f2e7df41a418d7d8364]
+
+	split WPXHeaderFooter to separate file
+
+
+2018-03-20  David Tardon  <dtardon@redhat.com>  [76139ae30466de18041ae01a67d4fd822a1de5bd]
+
+	drop comment that does not make any sense
+
+
+2018-03-20  David Tardon  <dtardon@redhat.com>  [723a6121c341b4c3163ca399b10bd4d9bd9de579]
+
+	use unique_ptr
+
+
+2018-03-20  David Tardon  <dtardon@redhat.com>  [9106a25408cba0547925080e7450b2e0820f5b9d]
+
+	drop unused header
+
+
+2018-03-20  David Tardon  <dtardon@redhat.com>  [9629fc7f79484a5cd5d3c2c98757fd8b2e663ba1]
+
+	wp5: drop subdocument list
+
+
+2018-03-20  David Tardon  <dtardon@redhat.com>  [698b00c7325f73c259e8073552db5eb70da57677]
+
+	wp42: drop subdocument list
+
+
+2018-03-20  David Tardon  <dtardon@redhat.com>  [87afcb54a7f8a4260f14e42bac67bb14151faa62]
+
+	wp3: drop subdocument list
+
+
+2018-03-20  David Tardon  <dtardon@redhat.com>  [c5e79a57c8528f08cc2720e8493e4ab3edfaa56e]
+
+	wp1: drop subdocument list
+
+	It was only needed for cleanup.
+
+2018-03-20  David Tardon  <dtardon@redhat.com>  [25ccc0038496736382e8afd88f4391061b3a3fbb]
+
+	pass subdocuments by shared_ptr
+
+
+2018-03-20  David Tardon  <dtardon@redhat.com>  [82add99d37d67f56fcd53280a7a6e435d1459640]
+
+	avoid manual memory management
+
+
+2018-03-20  David Tardon  <dtardon@redhat.com>  [340a1aa1b069de66205a7ba0659038525c1ca43a]
+
+	wp6: use shared_ptr to manage subdocs
+
+
+2018-03-20  David Tardon  <dtardon@redhat.com>  [faa399083d0fffcaa9d382bfce37bf31cba22ab4]
+
+	use unique_ptr to manage memory
+
+
+2018-03-20  David Tardon  <dtardon@redhat.com>  [ad69326bef8f4b8cf16ea1464bc41412574ea2c0]
+
+	ofz#7029 avoid memory leak on exception in ctor
+
+
+2018-03-19  David Tardon  <dtardon@redhat.com>  [aab4a9d36c21beb318b4e98a0f1702381fcb6395]
+
+	wp5: use shared_ptr to manage subdocs
+
+
+2018-03-19  David Tardon  <dtardon@redhat.com>  [0ac78bf6f243e313715d1da101f7c75e840f4572]
+
+	wp42: use shared_ptr to manage subdocs
+
+
+2018-03-19  David Tardon  <dtardon@redhat.com>  [537dce8ca71d8eda30a37a44abcd32a65497ad4b]
+
+	wp3: use shared_ptr to manage subdocs
+
+
+2018-03-19  David Tardon  <dtardon@redhat.com>  [c18b34453245f20aa0ba479ab9a08c5c54464619]
+
+	wp1: use shared_ptr to manage subdocs
+
+
+2018-03-19  David Tardon  <dtardon@redhat.com>  [fcfbce5e75b3d706f0065c7f5455f0d7949f898c]
+
+	ofz#7009 avoid memory leak on exception
+
+
+2017-10-31  Miklos Vajna  <vmiklos@collabora.co.uk>  [156aab6d6f3b49415d30780c20c32f026560b56f]
+
+	Use auto when declaring iterators and when initializing with a cast
+
+
+2017-10-31  Fridrich Štrba  <fridrich.strba@bluewin.ch>  [9fd5156bc66ffe490b205f0138a69cfb43ddffe7]
+
+	doxygen -u
+
+
+2017-10-30  David Tardon  <dtardon@redhat.com>  [19ecc0865973448de3f945c807feaa06bc4f4e59]
+
+	fix debug message
+
+
+2017-10-30  David Tardon  <dtardon@redhat.com>  [8093377c61ff9112f1a3e12c3026651cb58c918d]
+
+	ensure sub-document size is positive
+
+
+2017-10-30  David Tardon  <dtardon@redhat.com>  [eca7178535389d15590d5d5dd1b6965128372297]
+
+	avoid exception if reading past end
+
+
+2017-10-30  David Tardon  <dtardon@redhat.com>  [11a6ffc7095922c6d389e7288442a2c795cf5d4b]
+
+	do not blow up with exception immediately
+
+
+2017-10-30  David Tardon  <dtardon@redhat.com>  [09c4eba1da40d28ac7f41b4c71a7c8cab8c6e59e]
+
+	ofz#3724 avoid unsigned overflow causing OOM
+
+
+2017-10-28  David Tardon  <dtardon@redhat.com>  [a89004ba21e2d948cfdab2df93cfc13959684b50]
+
+	save some vertical space
+
+
+2017-10-28  David Tardon  <dtardon@redhat.com>  [615c9d0184c11bd4f8d1859f329dda2106f15f4c]
+
+	drop MSVC project files outdated by move to C++11
+
+
+2017-09-28  David Tardon  <dtardon@redhat.com>  [e4fddd471f3339f23571c87a4fd06707cb163d04]
+
+	include only what is needed
+
+
+2017-09-28  David Tardon  <dtardon@redhat.com>  [08d6e28eb4edfcf575d3b7301b0266c4f7ae1ad0]
+
+	avoid output from fuzzer
+
+
+2017-09-12  David Tardon  <dtardon@redhat.com>  [84c8ac03ecad824616d815476d874f52a4e914fb]
+
+	bump release
+
+
 2017-09-12  David Tardon  <dtardon@redhat.com>  [2d0cb46f55515d278cf1b0b384d0cebcdca0d03c]
 
 	cid#1371599 remove useless check
