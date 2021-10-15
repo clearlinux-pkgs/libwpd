@@ -4,7 +4,7 @@
 #
 Name     : libwpd
 Version  : 0.10.3
-Release  : 4
+Release  : 5
 URL      : https://dev-www.libreoffice.org/src/libwpd-0.10.3.tar.xz
 Source0  : https://dev-www.libreoffice.org/src/libwpd-0.10.3.tar.xz
 Summary  : A library for reading and writing Corel WordPerfect(tm) documents
@@ -17,6 +17,7 @@ BuildRequires : boost-dev
 BuildRequires : doxygen
 BuildRequires : pkgconfig(librevenge-0.0)
 BuildRequires : pkgconfig(librevenge-generators-0.0)
+Patch1: gcc11.patch
 
 %description
 libwpd is a library for import of WordPerfect documents. It is used by,
@@ -71,13 +72,14 @@ license components for the libwpd package.
 %prep
 %setup -q -n libwpd-0.10.3
 cd %{_builddir}/libwpd-0.10.3
+%patch1 -p1
 
 %build
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1592625018
+export SOURCE_DATE_EPOCH=1634322850
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
@@ -91,10 +93,10 @@ export LANG=C.UTF-8
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
-make VERBOSE=1 V=1 %{?_smp_mflags} check
+make %{?_smp_mflags} check
 
 %install
-export SOURCE_DATE_EPOCH=1592625018
+export SOURCE_DATE_EPOCH=1634322850
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/libwpd
 cp %{_builddir}/libwpd-0.10.3/COPYING.LGPL %{buildroot}/usr/share/package-licenses/libwpd/3704f4680301a60004b20f94e0b5b8c7ff1484a9
